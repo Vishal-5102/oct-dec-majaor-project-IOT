@@ -6,7 +6,8 @@ oct-dec majaor project
 
 Turtlesim_CatchAndCatch This is a fun implementation of Catch and Catch game done using ROS Turtlesim.Initially a turtle will be there which is the catcher of the game. A new turtle will be spawned to which the catcher will go to the goal position to catch it. Everytime we catch a turtle a new turtle is spawned in a random position. This process repeats continuously.
 
-image
+![Screenshot 2023-03-21 104955](https://user-images.githubusercontent.com/128008165/226536533-c90629d1-1895-48d7-83ba-666c5d88039a.png)
+
 
 Flow of program
 
@@ -44,4 +45,5 @@ while self.euclidean_distance(goal_pose) >= float(distance_tolerance): With that
 
 Turtle_kill(killer_name) This function is used to kill the turtle whose input parameter is the name of the turtle. Once the catcher turtle catches the newly spawned turtle, then the Turtle_Kill function is been called self.Turtle_kill('turtle2')
 
-Screenshot 2023-03-21 105408
+
+![Screenshot 2023-03-21 105408](https://user-images.githubusercontent.com/128008165/226536600-9f482432-e51e-4148-9555-35f63026a126.png)
